@@ -101,6 +101,8 @@ p span{
   main{
     width: 400px;
   }
-
+  p{
+    font-size: 25px;
+  }
 
 }
