@@ -9,5 +9,5 @@
 
 ![Captura de tela 2024-04-12 132658](https://github.com/maxdouglasb/NewGame/assets/141052087/d9f5ab2e-dbcc-4fdb-b7eb-71f078e6da8f)
 
- <a href="https://new-game-blush.vercel.app/" target="_blank">![image](https://new-game-blush.vercel.app/)
+ <a href="https://new-game-blush.vercel.app/" target="_blank">![image](https://github.com/maxdouglasb/canil_unigoias/assets/141052087/a8f9858f-b937-4843-a410-211516a9caf2)
 </a>
