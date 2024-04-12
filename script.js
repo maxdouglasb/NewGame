@@ -32,7 +32,7 @@ const playTheGame = (human, machine) => {
     resultado.innerHTML = "Você Perdeu";
   }
  
-  if (humanScoreNumber === 10) {
+  if (humanScoreNumber === 15) {
     resultado.innerHTML = "Você e Campeão";
     document.querySelector("#rock").disabled = true;
     document.querySelector("#scissors").disabled = true;
@@ -42,7 +42,7 @@ const playTheGame = (human, machine) => {
       location.reload();
     }, 10000);
   }
-  if (machineScoreNumber === 10) {
+  if (machineScoreNumber === 15) {
     document.querySelector("#rock").disabled = true;
     document.querySelector("#scissors").disabled = true;
     document.querySelector("#paper").disabled = true;
