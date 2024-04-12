@@ -5,6 +5,7 @@
   <p><b>🔨Tools</b>  </p>
   <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
 </div><br>
 
 ![Captura de tela 2024-04-12 132658](https://github.com/maxdouglasb/NewGame/assets/141052087/d9f5ab2e-dbcc-4fdb-b7eb-71f078e6da8f)
