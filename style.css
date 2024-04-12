@@ -1,42 +1,106 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-    background-image: url(./assets/8978277.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    width: 100vw;
-    height: 100vh;
-    
-    
-}.main{
-    
-    padding: 0.7em;
-   
+body {
+  background-image: url(./assets/8978277.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 100vw;
+  height: 100vh;
+  color: aliceblue;
 }
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    margin-top: 0.5em;
-    
+body main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column ;
 }
-a{
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 700;
-    color: 
-    #df3383;
-
+.main {
+  padding: 0.7em;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-top: 0.5em;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: #df3383;
 }
 a:hover {
-    color: #da2745;
-    letter-spacing: 4px;
-    font-weight: 700;
+  color: #da2745;
+  letter-spacing: 4px;
+  font-weight: 700;
 }
 
+main{
+  width: 30%;
+  background-color: rgba(138, 43 ,226, 0.9) ;
+  padding: 3em;
+  border-radius: 12px;
+  margin: auto;
+  margin-top: 10em;
+  opacity: 1px;
+}
+button{
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    font-size: 50px;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+
+}
+button:hover{
+    opacity: 0.7;
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2em;
+}
+
+#rock{
+    background-color: #4745da ;
+
+}
+
+#paper{
+    background-color: #df3383 ;
+
+}
+
+#scissors{
+    background-color: #26911c;
+
+}
+
+p{
+  font-size: 30px;
+  font-weight: 600;
+  color: #e4afa6;
+}
+p span{
+  color: #da4545;
+}
+
+@media (max-width: 1400px){
+  body{
+    background-size: auto;
+  }
+  main{
+    width: 400px;
+  }
+
+
+}

@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
-    <title>Jo-che-po</title>
-</head>
-<body>
-
-    <header class="main">
-        <nav>
-            <a href="#">ABOUT</a>
-            <a href="#">GAME</a>
-            <a href="#">CONTACT</a>
-        </nav>
-    </header>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     
-</body>
+    <title>Jo-che-po</title>
+  </head>
+  <body>
+    <header class="main">
+      <nav>
+        <a href="about.html">ABOUT</a>
+        <a href="#">GAME</a>
+        <a href="#">CONTACT</a>
+      </nav>
+    </header>
+    <main>
+      <h1>JokenPô</h1>
+      <div id="button" class="buttons">
+        <button class="off" id="rock" onclick="playHuman('rock')" >&#x1F44A;</button>
+        <button  class="off" id="paper" onclick="playHuman('paper')" >&#x1f590;</button>
+        <button  class="off" id="scissors" onclick="playHuman('scissors')">&#x270c;</button>
+      </div>
+      <p id="result" ></p>
+      <p class="my-score">Sua Potuação <span id="humanScore">0</span></p>
+      <p class="machine-score">Pontuação da Alexa <span id="machineScore">0</span></p>
+    </main>
+    <script src="./script.js"></script>
+  </body>
 </html>
