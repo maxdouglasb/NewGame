@@ -31,23 +31,26 @@ const playTheGame = (human, machine) => {
     machineScore.innerHTML = machineScoreNumber;
     resultado.innerHTML = "Você Perdeu";
   }
- 
-  if (humanScoreNumber === 15) {
-    resultado.innerHTML = "Você e Campeão";
+
+  if (humanScoreNumber === 20) {
+    document.querySelector("#result").innerHTML =
+      "<img src='assets/campeao.jpg' width='250px'>";
     document.querySelector("#rock").disabled = true;
     document.querySelector("#scissors").disabled = true;
     document.querySelector("#paper").disabled = true;
-    alert('Parabens Você e Top. Aguarde  A pagina Carregar')
+    alert("Parabens Você e Top. Aguarde  A pagina Carregar");
     setTimeout(function () {
       location.reload();
     }, 10000);
   }
-  if (machineScoreNumber === 15) {
+  if (machineScoreNumber === 20) {
     document.querySelector("#rock").disabled = true;
     document.querySelector("#scissors").disabled = true;
     document.querySelector("#paper").disabled = true;
-    resultado.innerHTML = "Você e Perdeu Feio";
-    alert('Parabens Você e Horrivel. Aguarde  A pagina Carregar')
+
+    document.querySelector("#result").innerHTML =
+      "<img src='assets/loser.jpg' width='250px'>";
+    alert("Parabens Você e Horrivel. Aguarde  A pagina Carregar");
     setTimeout(function () {
       location.reload();
     }, 10000);
